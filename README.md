@@ -1,3 +1,59 @@
+# Installing sass
+To install sass you can run the following code
+npm install node-sass --save
+
+# Add date format
+npm install date-fns --save
+https://date-fns.org/docs/Getting-Started#installation
+
+
+
+# video
+https://www.youtube.com/watch?v=3X4TUQsjHbA
+
+https://www.youtube.com/watch?v=WEu7AFbFIzw
+
+# What are the advantage of this table?
+We can do configuration declaratively
+
+Nice to have the definition of column separate
+
+# Pagination
+pagination
+https://youtu.be/WEu7AFbFIzw?t=221
+https://youtu.be/WEu7AFbFIzw?t=278
+
+# Next page , previous page
+https://youtu.be/WEu7AFbFIzw?t=840
+
+
+
+DELETE BELOW
+# add date-fns
+add date function
+
+npm install date-fns --save
+https://date-fns.org/
+
+# debugging
+for debugging it is good to use  window.parse = parse;
+for example in teh Root.js below import I can write
+window.parse = parse;
+and then in the console. 
+parse("some date")
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
