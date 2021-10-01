@@ -15,6 +15,8 @@ const useTable = ({columns, data, pagination}) => {
     );
 
     const allRows = data.map((dataRow) => {
+        console.log("allRows running");
+        
         const cells = columns.map(({ accessor }) => {
             const renderedValue = typeof accessor ==="function" ? accessor(dataRow) : dataRow[accessor];
 
