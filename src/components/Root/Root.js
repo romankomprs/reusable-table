@@ -26,8 +26,25 @@ const COLUMNS = [
 ]
 
 const Root = () => {
-    console.log("Root: rendering");
-    const { headers, pagination: { nextPage, pageNumber, previousPage, totalPages}, rows } = useTable( {columns: COLUMNS, data: mockData, pagination: {pageSize: 2} })
+    const { 
+        headers, 
+        pagination: { nextPage, pageNumber, previousPage, totalPages}, 
+        rows, 
+    } = useTable( {
+        columns: COLUMNS, 
+        data: mockData, 
+        pagination: {pageSize: 2} 
+    });
+
+    // this is run on the initial render
+    // useEffect(() => {
+    //     setInterval(() =>{
+    //         nextPage();
+    //     }, 1000);
+    // }, [])
+    
+
+
     return (
         <div className="centred">
             <h1>React Interview Questions</h1>
