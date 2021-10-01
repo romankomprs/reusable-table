@@ -1,6 +1,10 @@
 import { useMemo, useState } from "react";
 
+// finished the video here !!!!
+// https://youtu.be/9Qt1IfiZjik?t=37
+
 const useTable = ({columns, data, pagination}) => {
+    console.log("useTable: running");
     const [pageIndex, setPageIndex] = useState(0);
 
     const headers = useMemo(

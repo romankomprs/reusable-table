@@ -26,6 +26,7 @@ const COLUMNS = [
 ]
 
 const Root = () => {
+    console.log("Root: rendering");
     const { headers, pagination: { nextPage, pageNumber, previousPage, totalPages}, rows } = useTable( {columns: COLUMNS, data: mockData, pagination: {pageSize: 2} })
     return (
         <div className="centred">
